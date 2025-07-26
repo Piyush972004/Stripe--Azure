@@ -4,7 +4,7 @@ This project demonstrates a full-stack payment integration using **Stripe (Test 
 
 ## 🚀 Live Demo
 
-🌐 [Visit Deployed App]([https://your-deployed-url.com](https://purple-forest-0db11e710.1.azurestaticapps.net))  
+🌐 [Visit Deployed App](https://purple-forest-0db11e710.1.azurestaticapps.net/)  
 
 
 ---
