@@ -9,6 +9,12 @@ This project demonstrates a full-stack payment integration using **Stripe (Test 
 
 ---
 
+
+## Screenshots 
+![Screenshot](Screenshot%202025-07-26%20110559.png)
+![Screenshot](Screenshot%202025-07-26%20110609.png)
+
+
 ## 🛠️ Features
 
 - ✅ Stripe Payment Gateway Integration (Test Mode)
