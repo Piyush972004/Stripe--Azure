@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# Stripe Azure Integration App
 
-## Project info
+This project demonstrates a full-stack payment integration using **Stripe (Test Mode)** for a "Pro Plan – $10", hosted on **Azure Static Web Apps**, with automated CI/CD via **GitHub Actions**.
 
-**URL**: https://lovable.dev/projects/f250f4d5-e755-43cf-8ad3-0fdb0b1996e8
+## 🚀 Live Demo
 
-## How can I edit this code?
+🌐 [Visit Deployed App](https://your-deployed-url.com)  
+*(Replace with your actual deployed URL on Azure)*
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f250f4d5-e755-43cf-8ad3-0fdb0b1996e8) and start prompting.
+- ✅ Stripe Payment Gateway Integration (Test Mode)
+- ✅ "Pro Plan – $10" Checkout
+- ✅ Azure Static Web Apps Deployment
+- ✅ CI/CD Pipeline with GitHub Actions
+- ✅ Environment Variable Support (`.env`)
+- ✅ Responsive UI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📂 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: HTML, JavaScript
+- **Payments**: [Stripe Checkout](https://stripe.com/docs/checkout)
+- **Deployment**: Azure Static Web Apps
+- **CI/CD**: GitHub Actions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧪 Stripe Test Card (for demo)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+Use the following card in test mode:
+```
+Card Number: 4242 4242 4242 4242
+Expiry Date: Any future date
+CVC: Any 3 digits
+ZIP: Any valid ZIP
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Setup Instructions
 
-**Use GitHub Codespaces**
+### 1. Clone the repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/Piyush972004/stripe-azure.git
+cd stripe-azure
+```
+2. Setup Stripe
+```
+Create an account at https://dashboard.stripe.com
 
-## What technologies are used for this project?
+Get your Test API Keys
 
-This project is built with:
+Update your .env file (for local development) or Azure portal (for deployment)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+env
+STRIPE_PUBLIC_KEY=pk_test_...
+STRIPE_SECRET_KEY=sk_test_...
+```
+3. Run Locally
+```
+You can use any static server or live server extension to run index.html locally.
+npm install -g live-server
+live-server
+```
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/f250f4d5-e755-43cf-8ad3-0fdb0b1996e8) and click on Share -> Publish.
+## 🚀 Deployment on Azure
+```
+Push code to your GitHub repo.
 
-## Can I connect a custom domain to my Lovable project?
+Go to Azure Portal > Static Web Apps > Create.
 
-Yes, you can!
+Link it to your GitHub repo.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Set your environment variables in Azure > Configuration.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Azure will automatically build and deploy your app.
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
